@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .container{
     font-family: sans-serif;
@@ -84,5 +84,17 @@ body{
 @media screen and (max-width: 600px) {
     .main__content{
         width: 85%;
+    }
+    .main__content h2{
+        padding-bottom: 20px;
+    }
+    .main__content p{
+        font-size: 18px;
+        line-height: 1.2;
+        padding-bottom: 15px;
+    }
+    .main__content button{
+        padding: 8px 12px;
+        
     }
 }
